@@ -13,23 +13,49 @@ div {
 }
 
 .btn {
-  border-radius: 2px;
-  text-decoration: none;
-  color: #fff;
-}
-
-.pri {
+  display: block;
   background-color: #333;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #fff;
+  padding: .4em .75em .3em;
 }
 
-.sub {
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-subtle {
   background-color: #ccc;
 }
 
-.ghost {
-  color: #000;
+.btn-subtle:hover {
+  background-color: #666;
 }
 
-.war {
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #000;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+}
+
+.btn-warning {
   background-color: #f33;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
