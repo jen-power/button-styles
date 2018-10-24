@@ -10,4 +10,5 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+  border-radius: 5px;
 }
