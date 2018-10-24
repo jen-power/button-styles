@@ -19,7 +19,7 @@ div {
   text-decoration: none;
   font-size: 1.125rem;
   color: #fff;
-  padding: .4em .75em;
+  padding: .3em .75em .4em;
 }
 
 .btn:hover {
