@@ -13,13 +13,13 @@ div {
 }
 
 .btn {
-  display: block;
+  display: inline-block;
   background-color: #333;
   border-radius: 8px;
   text-decoration: none;
   font-size: 1.125rem;
   color: #fff;
-  padding: .4em .75em .3em;
+  padding: .4em .75em;
 }
 
 .btn:hover {
