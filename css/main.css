@@ -19,7 +19,7 @@ div {
   text-decoration: none;
   font-size: 1.125rem;
   color: #fff;
-  padding: .3em .75em .4em;
+  padding: .5em .75em;
 }
 
 .btn:hover {
@@ -37,6 +37,9 @@ div {
 .btn-ghost {
   background-color: #fff;
   color: #000;
+}
+
+.btn-border {
   border: 3px solid #000;
 }
 
